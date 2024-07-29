@@ -14,3 +14,8 @@ var maxProfit = function (prices) {
   }
   return maxProfit;
 };
+
+/*
+Time: O(n x m) where n is the rows and m is the col of the matrix
+Space: O(n x m) where n is the rows and m is the col of the matrix
+*/
