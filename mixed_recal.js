@@ -26,3 +26,7 @@ const middleValue = (head) => {
   }
   return slow.val;
 };
+
+const linkedListCycle = (head) => {
+  // todo
+};
