@@ -28,5 +28,15 @@ const middleValue = (head) => {
 };
 
 const linkedListCycle = (head) => {
-  // todo
+  const visited = new Set();
+  let current = head;
+
+  while (current) {
+    if (visited.has(current)) {
+      return true;
+    }
+    visited.add(current);
+    current = current.next;
+  }
+  return false;
 };
