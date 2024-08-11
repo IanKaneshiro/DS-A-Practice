@@ -14,3 +14,7 @@ const linkedPalindrome = (head) => {
   }
   return values.join("") === values.reverse().join("");
 };
+
+const middleValue = (head) => {
+  // todo
+};
