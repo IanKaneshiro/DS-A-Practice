@@ -40,3 +40,7 @@ const linkedListCycle = (head) => {
   }
   return false;
 };
+
+const reverseTree = (root) => {
+  return;
+};
