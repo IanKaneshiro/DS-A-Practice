@@ -51,5 +51,6 @@ const reverseTree = (root) => {
 };
 
 const sumNumbersRecursive = (numbers) => {
-  // todo
+  if (!numbers.length) return 0;
+  return sumNumbersRecursive(numbers.slice(1)) + numbers[0];
 };
